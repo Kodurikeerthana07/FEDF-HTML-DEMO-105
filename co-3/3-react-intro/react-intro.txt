@@ -1,0 +1,5 @@
+# React Intro
+Run this command to create the project:
+npx create-react-app myapp
+
+Replace src/App.js with the provided App.jsx code.

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ES6, Fetch API & Local Storage</title>
+</head>
+<body>
+  <h1>ES6 + API + Local Storage</h1>
+
+  <h2>Fetch API</h2>
+  <button onclick="loadPost()">Load Post</button>
+  <pre id="post"></pre>
+
+  <h2>Local Storage</h2>
+  <input type="text" id="dataInput" placeholder="Type something" />
+  <button onclick="saveData()">Save</button>
+  <button onclick="loadData()">Load</button>
+  <p id="stored"></p>
+
+  <script type="module" src="js/es6.js"></script>
+  <script type="module" src="js/fetch.js"></script>
+  <script type="module" src="js/storage.js"></script>
+</body>
+</html>
